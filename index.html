@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CASINO SYSTEM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>CASINO</h1>
+        <p>WELCOME TO THE CASINO</p>
+    </header>
+
+    <main>
+        <section id="status">
+            <h2>MY STATUS</h2>
+            <p>所持金：<span id="money">1000</span></p>
+            <p>ランク：一般</p>
+        </section>
+
+        <nav>
+            <button onclick="showPage('home')">ホーム</button>
+            <button onclick="showPage('puzzle')">謎解き</button>
+            <button onclick="showPage('game')">ゲーム</button>
+            <button onclick="showPage('shop')">ショップ</button>
+        </nav>
+
+        <section id="content">
+            <h2>WELCOME</h2>
+            <p>カジノへようこそ。</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

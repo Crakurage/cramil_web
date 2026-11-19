@@ -25,3 +25,8 @@ function showPage(page) {
 
     content.innerHTML = pages[page];
 }
+document.addEventListener("touchmove", (event) => {
+  if (event.touches.length > 1) {
+    event.preventDefault();
+  }
+}, { passive: false });
